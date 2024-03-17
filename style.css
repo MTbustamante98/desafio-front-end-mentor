@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+body, html{
+  background-color: var(--cor4);
+  font-family: inter, sans-serif; 
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --cor0: hsl(75, 94%, 57%);
+  --cor1: hsl(0, 0%, 100%);
+  --cor2: hsl(0, 0%, 20%);
+  --cor3: hsl(0, 0%, 12%);
+  --cor4: hsl(0, 0%, 8%);
+}
+
+@font-face {
+  font-family: inter;
+  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
+}
+
+h1 {
+  margin: 0px;
+}
+
+main {
+  margin: auto;
+  margin-top: 50px;
+  background-color: var(--cor3);
+  width: 400px;
+  height: 600px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: var(--cor1);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h2 {
+  text-align: center;
+  color: var(--cor0);
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 10px;
+}
+
+section {
+  display: grid;
+  justify-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+section a {
+  background-color: var(--cor2);
+  color: var(--cor1);
+  width: 300px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+section a:hover {
+  background-color: var(--cor0);
+  color: var(--cor3);
+}
+
+.developer {
+  text-align: center;
+  margin-top: 20px;
+  color: hsl(0, 0%, 70%);
+  font-size:  0.85rem;
+  font-weight: 400;
+}
+
+.photo {
+  width: 25%;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  padding: 30px;
+}
+
+.attribution { 
+  bottom: 0;
+  position: fixed;
+  width: 100%; 
+  text-align: center;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.p-footer {
+  display: inline-block;
+  color: var(--cor1);
+  font-size: 1rem;
+}
+
+@media (max-width: 768px)  {
+  main {
+    margin-top: 20px;
+    width: 400px;
+    height: 500px;
+  }
+  
+  section a {
+    padding: 10px;
+  }
+
+  .photo {
+    width: 20%;
+    padding: 20px;
+  }
+
+  .p-footer {
+    font-size: 0.85rem;
+  }
+}
