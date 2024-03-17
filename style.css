@@ -29,7 +29,7 @@ h1 {
 
 main {
   margin: auto;
-  margin-top: 50px;
+  margin-top: 100px;
   background-color: var(--cor3);
   width: 400px;
   height: 600px;
@@ -111,7 +111,7 @@ section a:hover {
 
 @media (max-width: 768px)  {
   main {
-    margin-top: 20px;
+    margin-top: 40px;
     width: 400px;
     height: 500px;
   }
