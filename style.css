@@ -114,7 +114,7 @@ section a:hover {
 @media (max-width: 768px)  {
   main {
     margin-top: 40px;
-    width: 400px;
+    width: 350px;
     height: 500px;
   }
   
@@ -128,6 +128,6 @@ section a:hover {
   }
 
   .p-footer {
-    font-size: 0.85rem;
+    font-size: 0.7rem;
   }
 }
